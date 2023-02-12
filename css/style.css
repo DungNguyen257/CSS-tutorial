@@ -1,21 +1,25 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+@import url('https://fonts.googleapis.com/css2?family=Zeyada&display=swap');
+
 body {
-  min-height: 100vh;
-}
-h1 {
-  border: 2px dashed red;
-  width: 50%;
-  font-size: 3rem;
-  padding: 0.5em;
-}
-main {
+  padding: 10%;
   font-size: 2rem;
+  font-family: 'Zeyada', cursive;
 }
+
+/* input,
+button {
+  font: inherit;
+} */
+
 p {
-  font-size: 2rem;
-  width: 40ch;
+  /* text-decoration: none;
+  text-transform: capitalize;
+  text-transform: lowercase;
+  text-align: justify;
+  text-indent: 2em;
+  letter-spacing: 0.1em;
+  word-spacing: 1em; 
+  font-weight: lighter;
+  font-style: oblique;*/
+  line-height: 1.5;
 }
