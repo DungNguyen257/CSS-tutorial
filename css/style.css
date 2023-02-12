@@ -1,25 +1,24 @@
-@import url('https://fonts.googleapis.com/css2?family=Zeyada&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 body {
   padding: 10%;
   font-size: 2rem;
-  font-family: 'Zeyada', cursive;
+  font-family: 'Roboto', sans-serif;
 }
 
-/* input,
-button {
-  font: inherit;
-} */
-
-p {
-  /* text-decoration: none;
-  text-transform: capitalize;
-  text-transform: lowercase;
-  text-align: justify;
-  text-indent: 2em;
-  letter-spacing: 0.1em;
-  word-spacing: 1em; 
-  font-weight: lighter;
-  font-style: oblique;*/
-  line-height: 1.5;
+a {
+  cursor: pointer;
+  color: hsl(207, 44%, 49%);
+}
+a:visited {
+  color: purple;
+}
+a:hover,
+a:focus {
+  /* color: dodgerblue; */
+  opacity: 0.7;
+  background: gold;
+}
+a:active {
+  color: red;
 }
